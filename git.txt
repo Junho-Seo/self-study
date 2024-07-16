@@ -34,7 +34,7 @@
 
 4. git add / git commit
 - MM 의 사진을 참고하면서 학습
-- git add -> Staging Area(대기실로 이동)
+- git add -> Staging Area(대기실로 이동) -> git commit -> Repository(최종버전 저장소)
 
 ---------------------------------------------
 

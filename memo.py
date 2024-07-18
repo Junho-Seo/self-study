@@ -1,17 +1,10 @@
-T = int(input())
+# 아래 함수를 수정하시오.
+def add_numbers(num1, num2):
+    result = num1 + num2
+    return result
 
-for test_case in range(1, T + 1):
-
-    N = int(input())
-    print(f'#{test_case}',end = ' ')
-    
-    def recur(now):
-        if now == N:
-            print(now, end=' ')
-            return
-    
-        print(now, end = ' ') # 호출 전
-        recur(now+1) # 호출
-        print(now, end=' ') # 호출하고 돌아와서 할 것
-    recur(1)
-    print()
+num1 = int(input())
+num2 = int(input())
+sum_result = add_numbers(num1, num2)
+print(f'{num1}과 {num2}를 인자로 넘긴 경우,', sum_result)
+# 수정한 add_numbers() 함수를 호출하시오.

@@ -165,7 +165,7 @@ comb = [(x, y) for x in list1 for y in list2]
 print(comb)
 #%%
 # 가장 많이 활용되는 list comprihension 예시
-# 이차원 리스트 입력
+# 이차원 리스트 입력 (SWEA 예제)
 # 3 4 1 2
 # 2 1 4 5
 # 1 1 1 2

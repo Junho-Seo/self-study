@@ -45,6 +45,41 @@
 
 2. 같이 쓰는 거 (remote 환경) - github
 
+연동방법 2가지
+
+1. clone
+  - 원격 저장소에 파일이 다 있을 때
+
+2. git init
+git remote add origin https://github.com/Junho-Seo/self-study.git
+git pull origin master
+  - 로컬에 먼저 파일이 있을 때 or
+	원격 저장소에 없는 파일이 로컬에 있을 때
+
+remote add : 원격 저장소를 추가하겠다
+origin : 별명
+
+
+git clone <주소>
+- 원격 저장소 전체를 복사(다운로드)하는 것
+- 최초 1번만 실행하면 된다.
+
+git push/pull
+- 원격 저장소에 변경사항 업로드/다운로드
+- 최초 push/pull 진행 시, 어느 브랜치에 올려야 할 지 모름
+  - 아래 명령어로 실행(이 후로는 그냥 git push/pull 만)
+  - git push -u origin master
+  - git pull origin master
+  -u 옵션 : --set-upstream 
+  (push/pull 은 origin 의 master 브랜치에서 가져오겠다.)
+
+git remote add origin <주소>
+- 원격 저장소와 로컬 저장소를 연동
+
+git remote -v
+- 연동 잘 되었는 지 확인하는 명령어
+
+
 -------------------------------------
 
 온라인 실습실

@@ -1,4 +1,5 @@
 ## 2997. 문자열과 리스트 메서드 3 lv3
+# G
 
 def restructure_word(word, arr):
     for char in word:
